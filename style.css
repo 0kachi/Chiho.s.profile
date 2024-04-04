@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-logo {
+    color:black;
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    background-color:burlywood;
+    height: 100px;
+    padding-top: 20px;
+
+}
+
+.profile-image img {
+    margin: 30px 100px;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 700;
+    color: black;
+    margin-top: 100px;
+}
+
+.slider {
+    width: 540px;
+    margin: 20px auto 0;
+    padding: 0;
+    float: right;
+}
+
+.slider img {
+    height: 700px;
+    object-fit: cover;
+}
+
+
+.buttom {
+    width: 540px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#prev, 
+#next {
+    margin: 8px 30px;
+    width: 18px;
+    height: 18px;
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+    user-select: none;
+    cursor: pointer;
+}
+
+#page {
+    height: 18px;
+    line-height: 18px;
+    margin: 8px 0;
+    user-select: none;
+    color: aliceblue;
+}
+.msg {
+
+    font-size: large;
+
+
+}
+
+.msg dl {
+    margin-left: 40px;
+}
+
+span {
+    color:darkgoldenrod;
+}
+
+.profile {
+   padding: 100px;
+}
+
+.pr p {
+    max-width:700px;
+    margin-left: 40px;
+}
+
+.handball img {
+    margin-right: 100px;
+}
+
+
+
+ 
